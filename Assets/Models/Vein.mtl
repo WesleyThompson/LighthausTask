@@ -1,0 +1,9 @@
+newmtl Cells
+map_Kd CellGenV4.sbsar
+map_Pm CellGenV4.sbsar
+bump CellGenV4.sbsar
+disp CellGenV4.sbsar
+map_Ke CellGenV4.sbsar
+Kd 1 1 1
+d 1
+
