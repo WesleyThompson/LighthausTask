@@ -19,5 +19,20 @@
             transform.localPosition = position;
             transform.LookAt(position + spline.GetDirection(progress));
         }
+
+        public void SetProgress(float progress)
+        {
+            this.progress = progress;
+        }
+
+        public void SetSpline(BezierSpline spline)
+        {
+            this.spline = spline;
+        }
+
+        public void SetDuration(float duration)
+        {
+            this.duration = duration;
+        }
     }
 }
